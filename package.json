@@ -1,13 +1,10 @@
 {
-  "name": "doug-contracts",
+  "name": "doug-artifactor",
   "version": "0.0.1",
-  "description": "DOUG contracts",
+  "description": "NodeJS library to load Solidity contracts following the DOUG paradigm into JavaScript objects",
   "author": "Edward Ruchevits",
   "license": "",
   "main": "src",
-  "bin": {
-    "doug": "src/index.js"
-  },
   "dependencies": {
     "bluebird": "^3.4.7",
     "ether-pudding": "^3.2.0",
