@@ -95,8 +95,8 @@ module.exports = class DougArtifactor {
 	    contract.setProvider(this.web3.currentProvider)
 	    contract.defaults({
 			from: this.web3.eth.coinbase,
-			gas: 2455751,
-			gasLimit: '0x2fefd8'
+			gas: '0x2fefd8',
+			// gasLimit: '0x2fefd8'
 		})
 	    return contract
 	}
