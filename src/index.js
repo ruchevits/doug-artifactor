@@ -94,7 +94,7 @@ module.exports = class DougArtifactor {
 	localizeContract(contract){
 	    contract.setProvider(this.web3.currentProvider)
 	    contract.defaults({
-			from: this.web3.eth.coinbase,
+			from: this.web3.eth.defaultAccount,
 			gas: '0x2fefd8',
 			// gasLimit: '0x2fefd8'
 		})
